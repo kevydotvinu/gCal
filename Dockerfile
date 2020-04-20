@@ -1,5 +1,5 @@
 FROM python:3-slim
-COPY python3.sh fetch.py /root/
+ADD python3.sh fetch.py /root/
 ENV CREDENTIALS=null
 ENV TOKEN=null
 WORKDIR /root/
